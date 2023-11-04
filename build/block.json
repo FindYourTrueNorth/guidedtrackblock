@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "guidedtrackblock/guidedtrack-block",
+  "version": "0.1.0",
+  "title": "Guidedtrack Block",
+  "category": "widgets",
+  "attributes": {
+    "url": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "icon": "format-video",
+  "description": "Block for embedding Guidedtrack content",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "guidedtrack-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
