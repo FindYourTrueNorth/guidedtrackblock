@@ -65,7 +65,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/tlindgren/guidedtrack-block/',
+	'https://github.com/tlindgren/guidedtrackblock/',
 	__FILE__,
 	'guidedtrack-block'
 );
