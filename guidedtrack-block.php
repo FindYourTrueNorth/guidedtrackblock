@@ -56,9 +56,6 @@ function custom_enqueue_scripts() {
 add_action( 'enqueue_block_assets', 'custom_enqueue_scripts' );
 
 
-
-// Plugn Update Checker
-// https://github.com/YahnisElsts/plugin-update-checker/
 // Plugn Update Checker
 // https://github.com/YahnisElsts/plugin-update-checker/
 require 'plugin-update-checker/plugin-update-checker.php';
@@ -74,5 +71,3 @@ $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
-
-$myUpdateChecker->getVcsApi()->enableReleaseAssets();
