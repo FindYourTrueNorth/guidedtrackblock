@@ -1,6 +1,6 @@
 {
 	"name": "guidedtrack-block",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"description": "Block for embedding Guidedtrack content",
 	"author": "Tim Lindgren",
 	"license": "GPL-2.0-or-later",

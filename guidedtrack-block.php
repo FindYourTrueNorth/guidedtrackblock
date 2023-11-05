@@ -4,7 +4,7 @@
  * Description:       Block for embedding Guidedtrack content
  * Requires at least: 6.1
  * Requires PHP:      7.0
- * Version:           0.7.0
+ * Version:           0.8.0
 
  * Author:            Tim Lindgren
  * License:           GPL-2.0-or-later
@@ -53,6 +53,12 @@ function custom_enqueue_scripts() {
     }
 
     wp_enqueue_style( 'custom-guidedtrack-css', 'https://www.guidedtrack.com/assets/guidedtrack.css' );
+
+    // Register the stylesheet:
+    wp_register_style( 'styles', plugins_url( '/styles.css', __FILE__ ), array(), '1.0.0', 'all' );
+
+    // Enqueue the stylesheet:
+    wp_enqueue_style( 'styles' );
 }
 add_action( 'enqueue_block_assets', 'custom_enqueue_scripts' );
 
