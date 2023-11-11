@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Guided TRack Block</title>
+
 
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
@@ -21,6 +21,13 @@
 <link rel="stylesheet" type="text/css" href="https://www.guidedtrack.com/assets/bootstrap.css">
 
 <link rel="stylesheet" type="text/css" href="https://www.guidedtrack.com/assets/guidedtrack.css">
+
+<style>
+.next {
+  display:none;
+}
+
+</style>
 </head>
 
 <body>
@@ -37,12 +44,15 @@
     </div>
     <div class="maintain" role="status" aria-label="note" aria-live="polite"></div>
     <div class="main" role="main" aria-live="polite" aria-live="polite"></div>
+
+    <button class="next">Next</button>
   </div>
 </body>
 
 <script>
 $(window).on("finished", function () {
-  console.log('Github test');
+  console.log('Testing Next');
+  $(".next").show();
 })
 
 </script>
