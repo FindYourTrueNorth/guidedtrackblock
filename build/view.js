@@ -1,1 +1,1 @@
-console.log("Hello World! (from guidedtrackblock-guidedtrack-block block)");
+console.log("Testing GT trigger)"),jQuery(document).ready((function(e){var t=e(".learndash_mark_complete_button");t.attr("id")||t.attr("id","submitBtn"),e("<label/>",{for:"submitBtn",class:"next-step",text:"Go to Next Step"}).insertBefore(t),e(".learndash_mark_complete_button").hide(),e("label.next-step").hide(),jQuery(window).on("finished",(function(){console.log("Testing WP 2"),e("label.next-step").show()}))}));
